@@ -15,12 +15,27 @@
 
 <script setup lang="ts"></script>
 
-<style scoped>
+
+
+<style >
+
+.el-menu--horizontal>.el-sub-menu .el-sub-menu__title:hover{
+  background-color: rgba(255, 255, 255, 0.00000001) !important;
+  border-bottom: 0px rgba(255, 255, 255, 0.00000001) !important;
+
+}
+.el-menu--horizontal>.el-sub-menu .el-sub-menu__title{
+  background-color: rgba(255, 255, 255, 0.00000001) !important;
+  border-bottom: 0px rgba(255, 255, 255, 0.00000001) !important;
+
+}
+
+
 .header-content {
   display: flex;
   justify-content: space-between;
   height: 100%;
-  align-items: center;
+
   overflow: hidden;
 }
 .back {
@@ -45,12 +60,27 @@
   background-color: rgba(255, 255, 255, 0.00000001) !important;
   border: 0 !important;
 }
+.el-menu
+{
+  background-color:rgba(255, 255, 255, 0.00000001) !important;
+}
+.el-popper
+{
+  background-color:rgba(255, 255, 255, 0.00000001) !important;
+  inset: 70px 20px auto auto!important;
+
+}
 
 .el-menu-item {
   font-size: 18px;
   background-color: rgba(255, 255, 255, 0.00000001) !important;
   border: 0 !important;
+  display:flex!important;
+  justify-content: center
+  
 }
+
+
 .right-side {
   margin-right: 40px;
 }
@@ -66,4 +96,12 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.el-sub-menu__title:hover{
+  background-color: rgba(255, 255, 255, 0.00000001) !important;
+}
+
+
+
 </style>
